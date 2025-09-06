@@ -1,10 +1,55 @@
-# Python-generated files
+# ------------------------
+# Python
+# ------------------------
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*$py.class
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# ------------------------
+# uv package manager
+# ------------------------
+uv.lock
+
+# ------------------------
+# Environment & secrets
+# ------------------------
+.env
+*.env
+*.secret
+*.key
+
+# ------------------------
+# IDE / Editors
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# ------------------------
+# OS-specific files
+# ------------------------
+.DS_Store
+Thumbs.db
