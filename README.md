@@ -14,5 +14,3 @@ Each restaurant is included only once, with its specialty highlighted.
 - Runs with **uv** (ultra-fast Python package/dependency manager).
 
 ---
-
-## 📂 Project Structure
